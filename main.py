@@ -18,6 +18,7 @@ while cam.isOpened():
             continue
         x , y, w, h = cv2.boundingRect(c)
         cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        # uncomment this part with winsound if you need to play the beeping sound when any movement is detected by the camera
         # winsound.Beep(500, 200)
     if cv2.waitKey(10) == ord('q'):
         break
