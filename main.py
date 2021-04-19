@@ -1,3 +1,5 @@
+# This code is written by Rajdeep Majumder (@razrexe)
+# watch my video tutorial and follow along this for help and try to code this on your own. Have fun and stay curious!!
 import cv2
 import winsound
 cam = cv2.VideoCapture(0)
